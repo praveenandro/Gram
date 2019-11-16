@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#f2f2f2"
+    >
+
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imagehand1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:src="@drawable/right"
+            android:layout_gravity="bottom"/>
+
+        <TextView
+            android:id="@+id/textthird1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:autoLink="all"
+            android:clickable="true"
+            android:fontFamily="cursive"
+            android:text="Studio and Outdoor"
+            android:textColor="#66ccff"
+
+            android:textSize="30sp" />
+    </LinearLayout>
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="50dp"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/imagehand2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:src="@drawable/right"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:id="@+id/textthird2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:autoLink="all"
+        android:clickable="true"
+        android:fontFamily="cursive"
+        android:text="Digital Passport and Visa Photos"
+        android:textColor="#66ccff"
+
+        android:textSize="30sp" />
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imagehand3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:src="@drawable/right"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:id="@+id/textthird3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:autoLink="all"
+            android:clickable="true"
+            android:fontFamily="cursive"
+            android:text="Printing From Media and Mobile Phones"
+            android:textColor="#66ccff"
+
+            android:textSize="30sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imagehand4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:src="@drawable/right"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:id="@+id/textthird4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:autoLink="all"
+            android:clickable="true"
+            android:fontFamily="cursive"
+            android:text="Vaccum Lamination And Framing"
+            android:textColor="#66ccff"
+
+            android:textSize="30sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imagehand5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:src="@drawable/right"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:id="@+id/textthird5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:autoLink="all"
+            android:clickable="true"
+            android:fontFamily="cursive"
+            android:text="Old And Damaged Photo Restoration"
+            android:textColor="#66ccff"
+
+            android:textSize="30sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imagehand6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:src="@drawable/right"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:id="@+id/textthird6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:autoLink="all"
+            android:clickable="true"
+            android:fontFamily="cursive"
+            android:text="Wedding Photo And Videography"
+            android:textColor="#66ccff"
+            android:textSize="30sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imagehand7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:src="@drawable/right"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:id="@+id/textthird7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:autoLink="all"
+            android:clickable="true"
+            android:fontFamily="cursive"
+            android:text="Industrial And Product Photography"
+            android:textColor="#66ccff"
+
+            android:textSize="30sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imagehand8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:src="@drawable/right"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:id="@+id/textthird8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:autoLink="all"
+            android:clickable="true"
+            android:fontFamily="cursive"
+            android:text="Personalized Photo Gifts"
+            android:textColor="#66ccff"
+
+            android:textSize="30sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imagehand9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:src="@drawable/right"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:id="@+id/textthird9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:autoLink="all"
+            android:clickable="true"
+            android:fontFamily="cursive"
+            android:text="PhotoBooks And Creative Albums"
+            android:textColor="#66ccff"
+
+            android:textSize="30sp" />
+    </LinearLayout>
+
+</LinearLayout>
+    </ScrollView>

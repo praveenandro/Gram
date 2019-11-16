@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_cabs"
+
+        android:icon="@drawable/driverhome"
+        android:title="HOME"/>
+
+    <item
+        android:id="@+id/navigation_trends"
+        android:icon="@drawable/carduty"
+        android:title="DUTY"/>
+
+    <item
+        android:id="@+id/navigation_food"
+        android:icon="@drawable/driverleasing"
+        android:title="LEASING"/>
+    <item
+        android:id="@+id/navigation_groccery"
+        android:icon="@drawable/driverprofile"
+        android:title="PROFILE"/>
+
+</menu>

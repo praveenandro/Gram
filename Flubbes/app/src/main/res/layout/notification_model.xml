@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="6"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:id="@+id/idMsg"
+        android:text="TEXT"
+        android:layout_margin="7dp"
+       android:textColor="#050000"
+        android:textStyle="bold"
+        android:layout_height="0dp"
+        android:layout_weight="2"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/idImg"
+        android:src="@drawable/flubbescover"
+        android:layout_weight="4"/>
+    <Button
+        android:id="@+id/idClose"
+        android:background="#660404"
+        android:textColor="#FFFFFEFE"
+        android:layout_width="match_parent"
+        android:textStyle="bold"
+        android:layout_height="wrap_content"
+        android:text="CLOSE"/>
+
+</LinearLayout>

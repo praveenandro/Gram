@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:id="@+id/cotext1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:ellipsize="marquee"
+            android:fadingEdge="horizontal"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:maxLines="1"
+            android:scrollHorizontally="true"
+            android:singleLine="true"
+            android:text="Contact Us"
+            android:layout_gravity="center"
+            android:textColor="#66ccff"
+            android:textSize="40dp"
+            android:textStyle="italic"
+            android:fontFamily="cursive"/>
+
+        <ImageView
+            android:id="@+id/medimtop"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/info" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/cotext2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+
+                android:fontFamily="serif-monospace"
+                android:text="REACH US"
+                android:textColor="#66ccff"
+                android:textSize="60dp" />
+
+
+            <ImageView
+                android:id="@+id/coim1"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/sign" />
+
+
+            <TextView
+                android:id="@+id/cotext3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:fontFamily="sans-serif-condensed"
+                android:text="HEAD OFFICE\nShifa arcade No 1,3rd Floor\nBharathinagar 1st street,\nNorth Usman Road,\nT.Nagar,\nChennai – 600 017."
+                android:textColor="#000373"
+                android:textSize="30dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:orientation="vertical"
+            android:gravity="right">
+
+            <TextView
+                android:id="@+id/cotext4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+
+
+                android:text="Map View"
+                android:textColor="#66ccff"
+                android:textSize="60dp" />
+
+
+            <ImageView
+                android:id="@+id/coim2"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="30dp"
+                android:src="@drawable/mark"
+                android:layout_marginRight="40dp"/>
+
+
+
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/cotext5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+
+            android:fontFamily="serif-monospace"
+            android:text="CALL US"
+            android:textColor="#66ccff"
+            android:textSize="60dp" />
+
+
+        <ImageView
+            android:id="@+id/coim3"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/call" />
+
+
+        <TextView
+            android:id="@+id/cotext6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:fontFamily="sans-serif-condensed"
+            android:text="Phone : 2495908, 2495910, 4373008, 4373009\nMobile : 9876543210"
+            android:textColor="#000373"
+            android:textSize="30dp" />
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:orientation="vertical"
+            android:gravity="right">
+
+            <TextView
+                android:id="@+id/cotext7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="serif-monospace"
+                android:text="MAIL US"
+                android:textColor="#66ccff"
+                android:textSize="60dp" />
+
+
+            <ImageView
+                android:id="@+id/coim4"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/maill" />
+
+
+            <TextView
+                android:id="@+id/cotext8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:fontFamily="sans-serif-condensed"
+                android:text="support@aaastudios.in"
+                android:textColor="#000373"
+                android:textSize="30dp" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

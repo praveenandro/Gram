@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RideDetails">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="20dp"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="60dp"
+
+                android:layout_height="60dp"
+                android:src="@drawable/acc" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="7dp"
+                android:layout_marginLeft="17dp"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Ajith Kumar"
+                    android:textColor="#000000"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="You Rated : 5 "
+                    android:textColor="#000000"
+                    android:textSize="15dp"
+                     />
+            </LinearLayout>
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+
+            android:layout_marginTop="10dp"
+            android:background="#555050" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="60dp"
+
+                android:layout_height="60dp"
+                android:src="@drawable/rickshaw_color" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="7dp"
+                android:text="Micro-White Bolt"
+                android:textColor="#000000"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+
+            android:layout_marginTop="10dp"
+            android:background="#555050" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="60dp"
+
+                android:layout_height="60dp"
+                android:src="@drawable/ic_history_black_24dp" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:weightSum="3">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="7dp"
+                    android:layout_marginLeft="7dp"
+                    android:layout_weight="1"
+                    android:text="Rs.71"
+                    android:textColor="#000000"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="7dp"
+                    android:layout_weight="1"
+                    android:text="1.1 Km"
+                    android:textColor="#000000"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="7dp"
+                    android:layout_weight="1"
+                    android:text="4 min"
+                    android:textColor="#000000"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+
+            android:layout_marginTop="10dp"
+            android:background="#555050" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginLeft="15dp"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp"
+            android:gravity="center">
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:weightSum="4"
+          android:layout_height="wrap_content">
+          <TextView
+              android:layout_width="0dp"
+              android:textColor="#000000"
+              android:layout_height="wrap_content"
+              android:layout_weight="1"
+              android:text="10:26 PM"/>
+          <LinearLayout
+              android:layout_width="0dp"
+              android:layout_weight="3"
+              android:layout_height="wrap_content">
+
+              <ImageView
+                  android:layout_width="20dp"
+                  android:layout_height="20dp"
+                  android:src="@drawable/ic_location_on_black_24dp" />
+
+              <TextView
+                  android:id="@+id/idSource"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:text="T.Nagar"
+                  android:textSize="15dp" />
+          </LinearLayout>
+      </LinearLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginLeft="15dp"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp"
+            android:gravity="center">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:weightSum="4"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="0dp"
+                    android:textColor="#000000"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="10:26 PM"/>
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_weight="3"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:src="@drawable/ic_location_on_red_24dp" />
+
+                    <TextView
+                        android:id="@+id/idDestination"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="T.Nagar"
+                        android:textSize="15dp" />
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+
+            android:layout_marginTop="15dp"
+            android:background="#555050" />
+
+<TextView
+    android:layout_width="wrap_content"
+    android:textSize="18dp"
+    android:layout_marginLeft="15dp"
+    android:layout_marginTop="15dp"
+    android:textStyle="bold"
+    android:textColor="#000000"
+    android:layout_height="wrap_content"
+    android:text="Bill Details"
+    />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:textSize="15dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="15dp"
+                android:text="Ride Fare"/>
+            <View
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1"></View>
+            <TextView
+                android:layout_width="wrap_content"
+                android:id="@+id/idFare"
+                android:textColor="#000000"
+                android:layout_height="wrap_content"
+                android:text="Rs.37"
+                android:layout_marginTop="15dp"
+                android:textSize="15dp"
+                android:layout_marginRight="18dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:textSize="15dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="15dp"
+                android:text="Total Access Fee"/>
+            <View
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1"></View>
+            <TextView
+                android:layout_width="wrap_content"
+
+                android:textColor="#000000"
+                android:layout_height="wrap_content"
+                android:text="Rs.33"
+                android:layout_marginTop="15dp"
+                android:textSize="15dp"
+                android:layout_marginRight="18dp" />
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+
+            android:layout_marginTop="15dp"
+            android:background="#555050" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:textSize="15dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="15dp"
+                android:text="Rounded Off"/>
+            <View
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1"></View>
+            <TextView
+                android:layout_width="wrap_content"
+
+                android:textColor="#000000"
+                android:layout_height="wrap_content"
+                android:text="Rs.-0.46"
+                android:layout_marginTop="15dp"
+                android:textSize="15dp"
+                android:layout_marginRight="18dp" />
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+
+            android:layout_marginTop="15dp"
+            android:background="#555050" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:textSize="18dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="15dp"
+                android:text="Total Bill"/>
+            <View
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1"></View>
+            <TextView
+                android:layout_width="wrap_content"
+
+                android:textColor="#000000"
+                android:layout_height="wrap_content"
+                android:text="Rs.71"
+                android:textStyle="bold"
+
+                android:layout_marginTop="15dp"
+                android:textSize="18dp"
+                android:layout_marginRight="18dp" />
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:text="Includes Rs. 4.96 Taxes"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+
+            android:layout_marginTop="15dp"
+            android:background="#555050" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:textSize="18dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:layout_height="wrap_content"
+            android:text="Payment"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:textSize="17dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="15dp"
+                android:text="Cash"/>
+            <View
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1"></View>
+            <TextView
+                android:layout_width="wrap_content"
+
+                android:textColor="#000000"
+                android:layout_height="wrap_content"
+                android:text="Rs.71"
+                android:layout_marginTop="15dp"
+                android:textSize="17dp"
+                android:layout_marginRight="18dp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

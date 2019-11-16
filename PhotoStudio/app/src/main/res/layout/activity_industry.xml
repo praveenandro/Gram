@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="thangam.photostudio.Studio"
+    android:background="#f2f2f2"
+>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:id="@+id/indtext1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+            android:gravity="center"
+                android:text="Industrial And Product Photography"
+
+                android:textColor="#66ccff"
+                android:textSize="30sp"
+                android:textStyle="italic" />
+
+            <ImageView
+                android:id="@+id/medimtop"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="30dp"
+                android:src="@drawable/ind4"
+                />
+            <com.ms.square.android.expandabletextview.ExpandableTextView
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:expandableTextView="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/expand_text_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                expandableTextView:maxCollapsedLines="4"
+
+                android:layout_marginTop="30dp">
+                <TextView
+                    android:id="@id/expandable_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:textSize="30sp"
+                    android:textColor="#000373"
+                    android:fontFamily="cursive"/>
+                <ImageButton
+                    android:id="@id/expand_collapse"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="16dp"
+                    android:layout_gravity="right|bottom"
+                    android:background="@android:color/background_dark"/>
+            </com.ms.square.android.expandabletextview.ExpandableTextView>
+            <Button
+                android:id="@+id/indbut1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="View Sample Pictures"
+                android:textColor="#000373"
+                android:fontFamily="cursive"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:orientation="horizontal">
+
+
+            <ImageView
+                android:id="@+id/indim1"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:visibility="invisible"
+
+
+                android:src="@drawable/ind"
+
+                />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+            <ImageView
+                android:id="@+id/indim2"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:visibility="invisible"
+
+                android:src="@drawable/ind1"
+
+                />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/indim8"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/ind2"
+            android:visibility="invisible"
+
+            android:layout_gravity="center"
+            android:layout_weight="1"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <ImageView
+                android:id="@+id/indim3"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="30dp"
+                android:src="@drawable/ind3"
+                android:visibility="invisible"
+
+
+                android:layout_weight="1"/>
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+
+
+            <ImageView
+                android:id="@+id/indim4"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="30dp"
+                android:src="@drawable/ind4"
+                android:visibility="invisible"
+
+
+                android:layout_weight="1"/>
+
+
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/indim5"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/ind5"
+            android:layout_gravity="center"
+
+            android:visibility="invisible"
+
+            android:layout_weight="1"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="30dp"
+            >
+            <ImageView
+                android:id="@+id/indim6"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="30dp"
+                android:src="@drawable/indu"
+                android:visibility="invisible"
+
+
+               />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+
+
+            <ImageView
+                android:id="@+id/indim7"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="30dp"
+                android:src="@drawable/ind6"
+
+                android:visibility="invisible"
+
+                />
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,5 @@
+<root>
+    <item name='android.telephony.SmsManager'>
+        <annotation name='java.lang.Deprecated' />
+    </item>
+</root>

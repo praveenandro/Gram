@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f2f2f2"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/sit1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:text="SIGN UP"
+                android:textColor="#66ccff"
+                android:textSize="30sp" />
+            <EditText
+                android:id="@+id/sige1"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginTop="30dp"
+                android:layout_weight="1"
+                android:gravity="center"
+
+                android:drawableLeft="@drawable/if_user_285655"
+                android:drawablePadding="10dp" />
+
+            <EditText
+                android:id="@+id/sige2"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginTop="30dp"
+                android:layout_weight="1"
+                android:gravity="center"
+
+                android:drawableLeft="@drawable/address"
+                android:drawablePadding="10dp" />
+            <EditText
+                android:id="@+id/sige3"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginTop="30dp"
+                android:layout_weight="1"
+                android:gravity="center"
+
+                android:drawableLeft="@drawable/if_telephone_receiver_43337"
+                android:drawablePadding="10dp" />
+            <EditText
+                android:id="@+id/sige4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:gravity="center"
+
+                android:drawableLeft="@drawable/if_email_88484"
+                android:drawablePadding="10dp" />
+
+            <EditText
+                android:id="@+id/sige5"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginTop="30dp"
+                android:layout_weight="1"
+                android:inputType="textPassword"
+                android:gravity="center"
+
+                android:drawableLeft="@drawable/key"
+                android:drawablePadding="10dp" />
+            <EditText
+                android:id="@+id/sige6"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginTop="30dp"
+                android:layout_weight="1"
+                android:inputType="textPassword"
+                android:gravity="center"
+
+                android:drawableLeft="@drawable/key"
+                android:drawablePadding="10dp" />
+
+
+
+            <Button
+                android:id="@+id/signup_b"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Signup"
+                android:textColor="#000373" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

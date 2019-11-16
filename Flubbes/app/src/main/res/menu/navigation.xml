@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_cabs"
+        android:icon="@drawable/autorickshaw128"
+
+        android:title="Auto"/>
+
+    <item
+        android:id="@+id/navigation_trends"
+        android:title="Micro"/>
+
+    <item
+        android:id="@+id/navigation_food"
+        android:title="Mini"/>
+    <item
+        android:id="@+id/navigation_groccery"
+
+
+        android:title="Prime"/>
+
+</menu>

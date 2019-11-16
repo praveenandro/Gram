@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#659DC2"
+
+    tools:context=".activity.DemandCollection">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/id_imageView"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/img_payment" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="#FFFFFF"></View>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="5dp"
+
+            android:padding="15dp">
+
+
+            <RadioGroup
+                android:id="@+id/id_radGroup"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="100dp"
+                android:gravity="center_vertical"
+                android:weightSum="2">
+
+
+                <RadioButton
+                    android:id="@+id/id_Rad_house"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:textColor="#FFFFFF"
+                    android:text="HOUSE TAX"></RadioButton>
+
+                <RadioButton
+                    android:id="@+id/id_Rad_water"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:textColor="#FFFFFF"
+                    android:checked="false"
+                    android:text="WATER CHARGES"></RadioButton>
+
+                <RadioButton
+                    android:id="@+id/id_Rad_proff"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:textColor="#FFFFFF"
+                    android:checked="false"
+                    android:text="PROFESSIONAL TAX"></RadioButton>
+
+                <RadioButton
+                    android:id="@+id/id_Rad_trade"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:textColor="#FFFFFF"
+                    android:text="TRADE LICENCE"></RadioButton>
+
+                <!--  <LinearLayout
+                      android:layout_width="match_parent"
+                      android:layout_height="0dp"
+                      android:layout_weight="1"
+                      android:gravity="center"
+                      android:weightSum="2">
+
+                      <RadioButton
+                          android:layout_width="0dp"
+                          android:layout_height="wrap_content"
+                          android:checked="false"
+                          android:layout_weight="1"
+                          android:text="HOUSE TAX"></RadioButton>
+
+                      <RadioButton
+                          android:layout_width="0dp"
+                          android:layout_height="wrap_content"
+                          android:layout_weight="1"
+                          android:checked="false"
+                          android:text="WATER CHARGES"></RadioButton>
+                  </LinearLayout>
+
+                  <LinearLayout
+                      android:layout_width="match_parent"
+                      android:layout_height="0dp"
+                      android:layout_weight="1"
+                      android:gravity="center"
+                      android:weightSum="2">
+
+                      <RadioButton
+                          android:layout_width="0dp"
+                          android:layout_height="wrap_content"
+                          android:layout_weight="1"
+                          android:checked="false"
+                          android:text="PROFESSIONAL TAX"></RadioButton>
+
+                      <RadioButton
+                          android:layout_width="0dp"
+                          android:layout_height="wrap_content"
+                          android:checked="false"
+                          android:layout_weight="1"
+                          android:text="TRADE LICENCE"></RadioButton>
+                  </LinearLayout>-->
+
+
+            </RadioGroup>
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="20dp"
+            android:background="#FFFFFF"></View>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/id_ed_assess"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:textColorHint="#FFFFFF"
+                android:textColor="#FFFFFF"
+                android:backgroundTint="#6BD863"
+                android:layout_marginRight="15dp"
+                android:gravity="center"
+                android:hint="Enter Assess No"></EditText>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="20dp"
+                android:textColor="#FFFFFF"
+                android:text="(OR)"
+                android:textSize="25dp"></TextView>
+
+            <EditText
+                android:id="@+id/id_ed_door"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:textColor="#FFFFFF"
+                android:backgroundTint="#6BD863"
+                android:textColorHint="#FFFFFF"
+                android:layout_marginRight="15dp"
+                android:gravity="center"
+                android:hint="Enter Door No [Eg. 1/155A]"></EditText>
+
+            <TextView
+                android:id="@+id/status"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:layout_marginRight="20dp"
+                android:text=""
+                android:textColor="#E01515"
+                />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/id_but_proceed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#6BD863"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:layout_alignParentBottom="true"
+        android:text="PROCEED"></Button>
+</RelativeLayout>

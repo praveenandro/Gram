@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginBottom="20dp"
+    android:weightSum="11"
+    android:gravity="bottom"
+    android:background="@drawable/welcome"
+    tools:context=".SignupActivity">
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:gravity="center"
+
+        android:weightSum="4"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:textStyle="bold"
+            android:id="@+id/idSubTitle1"
+            android:layout_weight="3"
+            android:textColor="#000000"
+            android:textSize="25sp"
+            android:text="Explore new ways to travel with Flubbes.."/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:textStyle="bold"
+            android:id="@+id/idSubTitle2"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="20dp"
+            android:layout_weight="3"
+            android:textSize="18sp"
+            android:textColor="#000000"
+            android:text="Enter your mobile number to get started."/>
+        <View
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:drawableTint="@color/colorPrimary"
+            android:onClick="numget"
+            android:focusable="false"
+            android:drawableLeft="@drawable/ic_smartphone_black_24dp"
+            android:hint="Your Number"/>
+    </LinearLayout>
+</LinearLayout>

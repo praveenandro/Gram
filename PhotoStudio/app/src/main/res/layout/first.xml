@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+ >
+
+
+
+
+
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+
+android:gravity="center"
+        android:fontFamily="sans-serif-condensed"
+        android:lineSpacingExtra="10sp"
+        android:text="AAA Photo Services"
+
+        android:textAllCaps="false"
+
+        android:textColor="#66ccff"
+        android:textSize="40dp" />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewPager"
+
+        android:layout_width="match_parent"
+        android:layout_height="190dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="30dp"/>
+
+    <LinearLayout
+        android:id="@+id/SliderDots"
+
+        android:orientation="horizontal"
+        android:gravity="center_vertical|center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        >
+
+    </LinearLayout>
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="132dp"
+            android:layout_height="138dp"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/aaa" />
+
+
+
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:id="@+id/text"
+            android:text="AAA today is a staple name in most of the households and Industrial houses of TamilNadu.If one is looking for, state of the art technology, creativity, love for photography, unparalleled commitment to quality  and world class professionalism.AAA will be a one stop shop for all this and more.. Well, it’s our keen eye for perfection, an outstanding creative team to capture the best in you and the thirst for providing our customers a memorable and fun experience when in AAA and to take back home a souvenir that would speak volumes for generations to come."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="30sp"
+            android:textColor="#000373"
+            android:fontFamily="cursive"
+            android:padding="20dp"
+            />
+    </LinearLayout>
+</LinearLayout>
+</ScrollView>

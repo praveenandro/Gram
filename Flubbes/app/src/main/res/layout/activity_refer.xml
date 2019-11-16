@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Refer">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+
+        app:srcCompat="@drawable/refer" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+
+        android:text="Friends joins, friends earns Rs.50"
+        android:textSize="20sp"
+        android:textStyle="bold"
+
+        />
+    <TextView
+        android:id="@+id/idrefercode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+
+        android:text="REFER CODE"
+        android:textSize="20sp"
+        android:textStyle="bold"
+
+        />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom">
+
+        <Button
+            android:id="@+id/button"
+            android:textStyle="bold"
+            android:textColor="#ffffffff"
+            android:onClick="refer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="7dp"
+            android:background="#FF530404"
+            android:text="REFER &amp; EARN" />
+
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_centerInParent="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ProgressBar
+            android:layout_centerInParent="true"
+            android:id="@+id/home_progress"
+            style="?android:attr/progressBarStyleLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:visibility="gone"/>
+    </RelativeLayout>
+
+</LinearLayout>

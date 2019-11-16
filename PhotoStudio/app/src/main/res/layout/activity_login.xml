@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f2f2f2"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_alignParentStart="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical" >
+<TextView
+    android:id="@+id/logt1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="LOGIN"
+    android:textColor="#66ccff"
+    android:textSize="30sp"/>
+
+
+            <EditText
+                android:id="@+id/loge1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:gravity="center"
+                android:drawableLeft="@drawable/if_user_285655"
+                android:drawablePadding="10dp" />
+
+            <EditText
+                android:id="@+id/loge2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:drawableLeft="@drawable/key"
+                android:drawablePadding="10dp"
+                android:inputType="textPassword" />
+
+            <LinearLayout
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:weightSum="2" >
+
+
+
+                <CheckBox
+                    android:id="@+id/show_pass"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginTop="20dp"
+                    android:gravity="center"
+                    android:text="Show Password"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="#66ccff" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/login"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+
+                android:text="Login"
+                android:textColor="#000373" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

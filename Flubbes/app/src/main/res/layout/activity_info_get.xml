@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InfoGetActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark"
+        app:navigationIcon="@drawable/ic_keyboard_backspace_black_24dp">
+
+    </android.support.v7.widget.Toolbar>
+
+    <TextView
+        android:id="@+id/idTv1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="130dp"
+        android:layout_marginRight="25dp"
+        android:gravity="center"
+        android:text="Create your Flubbes account with"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/idPhnum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/idTv1"
+        android:layout_marginLeft="25dp"
+        android:gravity="center"
+        android:layout_marginTop="3dp"
+        android:layout_marginRight="25dp"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <EditText
+
+        android:id="@+id/idEdName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/idPhnum"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="25dp"
+        android:inputType="text"
+        android:gravity="center"
+        android:hint="Name" />
+
+    <EditText
+        android:id="@+id/idEdEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/idEdName"
+        android:layout_marginLeft="25dp"
+        android:inputType="text"
+
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="25dp"
+        android:gravity="center"
+        android:hint="Email" />
+
+    <EditText
+        android:id="@+id/idEdRefCode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/idEdEmail"
+        android:layout_marginLeft="25dp"
+        android:inputType="text"
+
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="25dp"
+        android:gravity="center"
+        android:hint="Referal Code(Optional)" />
+
+    <TextView
+        android:id="@+id/idTvTerms"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/idEdRefCode"
+
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="25dp"
+        android:text="By registering,you are agreeing to  Flubbes Terms &amp; Conditions" />
+
+
+    <Button
+        android:id="@+id/regbut"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/idTvTerms"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/navigationmer"
+        android:inputType="text"
+        android:onClick="register"
+
+        android:text="REGISTER"
+        android:textColor="#ffffff"
+        android:textStyle="bold" />
+   <!-- <Button
+        android:id="@+id/idBtreg"
+        android:layout_width="277dp"
+        android:layout_height="43dp"
+        android:layout_below="@id/idTvTerms"
+        android:layout_alignParentEnd="true"
+
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="70dp"
+        android:layout_marginEnd="47dp"
+        android:layout_marginRight="47dp"
+        android:layout_marginBottom="16dp"
+        android:background="#F3E80F"
+        android:text="REGISTER"
+        android:textColor="#000000"
+        android:textStyle="bold" />-->
+
+
+        <ProgressBar
+            android:layout_centerInParent="true"
+            android:id="@+id/home_progress"
+            style="?android:attr/progressBarStyleLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:visibility="gone"/>
+
+
+</RelativeLayout>
